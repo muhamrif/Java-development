@@ -13,6 +13,5 @@ public class ShoppingList {
         System.out.println("second monitor");
         System.out.println("mouse");
         System.out.println("keyboard");
-
     }
 }
