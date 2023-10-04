@@ -8,7 +8,7 @@ public class ShoppingList {
         System.out.println("power supply");
         System.out.println("RAM");
         System.out.println("HDD");
-        System.out.println("This is my Shopping List:");
+        System.out.println("SSD");
         System.out.println("This is my Shopping List:");
         System.out.println("This is my Shopping List:");
         System.out.println("This is my Shopping List:");
