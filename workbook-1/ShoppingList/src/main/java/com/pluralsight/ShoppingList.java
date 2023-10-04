@@ -6,7 +6,7 @@ public class ShoppingList {
         System.out.println("monitor");
         System.out.println("graphics card");
         System.out.println("power supply");
-        System.out.println("This is my Shopping List:");
+        System.out.println("RAM");
         System.out.println("This is my Shopping List:");
         System.out.println("This is my Shopping List:");
         System.out.println("This is my Shopping List:");
