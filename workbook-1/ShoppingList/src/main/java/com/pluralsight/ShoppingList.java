@@ -8,6 +8,7 @@ public class ShoppingList {
         System.out.println("This is my Shopping List:");
         System.out.println("This is my Shopping List:");
         System.out.println("This is my Shopping List:");
+        System.out.println("This is my Shopping List:");
 
     }
 }
