@@ -36,8 +36,10 @@ public class MathApp {
 
             //Question 6:
             float value = -3.8f;
-            System.out.println("Absolute value of value is: " + Math.abs(value));
+            System.out.println("Absolute value of -3.8 is: " + Math.abs(value));
 
-            //Question
+            //Question 7:
+            //Randomizer
+            System.out.println("This number will always be less than 1 and more than 0: " + Math.random());
     }
 }
