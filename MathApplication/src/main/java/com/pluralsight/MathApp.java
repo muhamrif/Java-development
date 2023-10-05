@@ -21,7 +21,23 @@ public class MathApp {
             System.out.println( "area of the circle is: " + 3.14 * Math.pow(7.25, 2));
 
             //Question 4:
-            float root = 5.0f;
+            int root = 5;
+            System.out.println("Square root of 5 is: " + Math.sqrt(root));
 
+            //Question 5:
+            int x1 = 5;
+            int y1 = 10;
+
+            int x2 = 85;
+            int y2 = 50;
+
+            System.out.println("Distance between point A and point B is: " + Math.sqrt((y2 - y1) * (y2 - y1) + (x2 - x1) * (x2 - x1)));
+            // ^^ returning a float for some reason.
+
+            //Question 6:
+            float value = -3.8f;
+            System.out.println("Absolute value of value is: " + Math.abs(value));
+
+            //Question
     }
 }
