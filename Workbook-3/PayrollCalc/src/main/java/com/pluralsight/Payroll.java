@@ -2,6 +2,7 @@ package com.pluralsight;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class Payroll {
 
@@ -21,13 +22,16 @@ public class Payroll {
 
                 Employee employee = new Employee(id, name, hoursWorked, payRate);
 
-                System.out.printf("Employee ID: %d, Name: %s,Gross Pay: $%.2fn",
+                System.out.printf("Employee ID: %d, Name: %s,Gross Pay: $%.2f%n",
                         employee.getEmployeeId(), employee.getName(),employee.getGrossPay());
 
-            }
-        }catch(Exception ex){
 
+
+            }
+        }catch(IOException e){
+            System.err.println("Error reading file: " + fileName);
         }
 
     }
 }
+

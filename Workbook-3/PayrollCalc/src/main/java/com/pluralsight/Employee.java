@@ -46,7 +46,7 @@ public class Employee {
         this.payRate = payRate;
     }
 
-    public int getGrossPay(){
-        return (int) (this.payRate *this.hoursWorked);
+    public double getGrossPay(){
+        return hoursWorked * payRate;
     }
 }
