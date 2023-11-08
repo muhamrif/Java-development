@@ -45,15 +45,15 @@ public class Vehicle extends Asset {
         double acc = this.originalCost;
         if (currYear-this.year<=3){
             for(int i=0;i<(currYear-this.year);i++){
-                acc-= this.originalCost*.03;
+                acc-= acc*.03;
             }
         }else if (currYear-this.year>=4 && currYear-this.year>=6){
             for(int i=0;i<(currYear-this.year);i++){
-                acc-= this.originalCost*.06;
+                acc-= acc*.06;
             }
         }else if (currYear-this.year>=7 && currYear-this.year<=10){
             for(int i=0;i<(currYear-this.year);i++){
-                acc-= this.originalCost*.10;
+                acc-= acc*.10;
             }
         } else if (currYear-this.year>10) {
             acc -= 1000;
