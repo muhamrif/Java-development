@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class Asset {
+public abstract class Asset {
     String description;
     String dateAcquired;
     double originalCost;
