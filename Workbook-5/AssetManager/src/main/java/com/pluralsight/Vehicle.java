@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Vehicle extends Asset {
 
@@ -65,4 +66,5 @@ public class Vehicle extends Asset {
 
         return acc;
     }
+
 }
